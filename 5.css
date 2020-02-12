@@ -1,0 +1,261 @@
+
+body{
+    margin: 0;
+    padding: 0;
+font-family: 'Six Caps', sans-serif;
+}
+.two{
+	width: 100%;
+}
+
+#in1{
+  border:0px;
+  text-transform: uppercase;
+  color: white;
+  background: #4ccfc1;
+  width: 10%;
+}
+.first{
+    display: flex;
+padding: 0.5% 14%;
+
+}
+.Aditii{
+flex-grow: 1;
+font-weight: bold;
+font-size: 200%;
+color:rgb(60, 195, 181); 
+font-family: 'Berkshire Swash', cursive;
+}
+
+div > input{
+    flex-grow: 2;
+    height: 1%;
+    margin-top: 1%; 
+    border:1px solid rgba(0,0,0,0.1);
+    background-size: 20px 20px;
+    background-repeat: no-repeat; 
+    background-position: right
+
+}
+.clickpoisk{
+  height: 20px;
+  margin-top:1%;
+  border:0px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  color: white;
+  background: #4ccfc1;
+
+}
+.clickpoisk:hover{
+  color: blue;
+  background: #4ccfc1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+input.poisck{
+  
+  height: 1%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+
+}
+
+input.poisck:hover{
+  background-color: rgb(60, 195, 181);
+  color: black;
+
+}
+
+.three .shooter-1 button{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+   margin-right: 1%;
+   background: white;
+   border:none;
+   
+}
+
+
+.three .shooter-1 button:nth-child(4){
+
+ background: rgb(45, 167, 152);
+}
+.how{
+flex-grow: 1;
+text-align: right;
+font-weight: bold;
+font-size: 200%;
+color: rgb(0,0,0,0.5);
+position: relative;  
+}
+.how > img{
+    width: 12%;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+
+span{
+    font-size: 180%;
+    color: white;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  background: #4ccfc1;
+  padding: 0;
+  
+}
+
+#in1:hover{
+  color: blue;
+  background: #4ccfc1;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.three{
+    background-color: rgb(60, 195, 181);
+    display: flex;
+    color: white;
+     padding-top: 3%;
+     padding-bottom: 3%;
+}
+.three > img{
+    margin-left: 18%;
+    margin-right: 8%;
+}
+.three  h1{
+    font-stretch:condensed;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.three  p{
+    opacity: 0.5;
+}
+.three button{
+    background-color: rgb(60, 195, 181);
+    border-radius: 10px;
+    border: 2px solid white;
+    height: 11%;
+    width: 40%;
+    margin-top: 5%;
+}
+
+.four{
+  display: flex;
+}
+
+.four > img{
+  width: 5%;
+    opacity: 0.1;
+ 
+}
+#fre{
+transform: rotate(180deg);
+}
+
+.four > div{
+  display: flex;
+  width:30%;
+  padding: 2%;
+
+}
+
+.img-div div{
+  display: flex;
+    flex-direction: column;
+
+}
+.four p{
+    font-weight: bold;
+    font-size: 150%;
+    opacity: 0.5;
+
+}
+.four > div:nth-child(3){
+border-left: 1px solid rgba(0,0,0,0.1);
+border-right: 1px solid rgba(0,0,0,0.1);
+}
+
+.but{
+  background-color: #3cc395;
+  border:none;
+    border-radius: 5px;
+    color: white;
+    height: 25%;
+    width: 70%;
+
+}
+.future{
+background-color: rgb(60, 195, 181);
+color: white;
+    font-size: 80%;
+    padding: 1% 9%;
+
+}
+
+.five{
+padding: 2% 10%;
+  display: flex;
+}
+.five > div{
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-left : 1px solid rgba(0,0,0,0.1);
+  border-right : 1px solid rgba(0,0,0,0.1);
+  border-bottom: 3px solid #3cc395;
+      margin: 0 auto; 
+  width: 25%;
+  text-align: center;
+
+       font-weight: bold;
+    font-size: 150%;
+    position: relative;
+
+}
+.five > div p{
+  margin-top: 1%;
+  opacity: 0.5;
+}
+
+.bax{
+    display: flex;
+    margin-left: 20%;
+  
+}
+#but{
+margin-left: 5%;
+    width: 50%;
+    height: 4%;
+    margin-bottom: 10%;
+}
+.footer{
+    background-color: #3cc3b5;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 13%;          
+}
+.maxfooter{
+  background-color:rgb(45, 167, 152) ;
+  text-align:center;
+  padding-top: 0.8%;
+  padding-bottom: 0.1%;
+  color: white;
+}
+.maxfooter p{
+  opacity: 0.5;
+}
+
+
+
+
+
